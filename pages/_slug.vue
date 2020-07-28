@@ -1,6 +1,6 @@
 <template>
   <article class="convex">
-    <img :src="'images/' + article.image" />
+    <img :src="'images/' + article.image">
     <nuxt-content :document="article" />
   </article>
 </template>
