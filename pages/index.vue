@@ -1,5 +1,9 @@
 <template>
   <main>
+    <div class="description">
+      <h2>About</h2>
+      <nuxt-content :document="about" />
+    </div>
     <div class="products">
       <h2>Products</h2>
       <div class="cards">
@@ -20,7 +24,8 @@
 export default {
   async asyncData ({ $content }) {
     const articles = await $content('articles').fetch()
-    return { articles }
+    const about = await $content('about').fetch()
+    return { articles, about }
   }
 }
 </script>
