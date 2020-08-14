@@ -14,11 +14,11 @@ body {
 
 header {
   font-size: 50px;
-  margin-left: 50px;
+  margin-left: 20px;
 }
 
 .convex {
-  margin: 50px;
+  margin: 20px;
   border-radius: 50px;
   background: #78CDD7;
   box-shadow: 20px 20px 60px #66aeb7, -20px -20px 60px #8aecf7;

@@ -1,10 +1,10 @@
 <template>
   <main>
-    <div class="description">
+    <div class="description convex">
       <h2>About</h2>
       <nuxt-content :document="about" />
     </div>
-    <div class="products">
+    <div class="products convex">
       <h2>Products</h2>
       <div class="cards">
         <nuxt-link v-for="article in articles" :key="article.slug" :to="article.slug">
