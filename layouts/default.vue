@@ -6,6 +6,9 @@
 </template>
 
 <style>
+html {
+  font-size: 62.5%;
+}
 
 body {
   background-color: #78CDD7;
@@ -13,7 +16,7 @@ body {
 }
 
 header {
-  font-size: 50px;
+  font-size: 5rem;
   margin-left: 20px;
 }
 
@@ -74,4 +77,23 @@ div.image img {
   object-fit: cover;
 }
 
+header {
+  font-size: 3rem;
+}
+h2 {
+  font-size: 2rem;
+}
+p {
+  font-size: 1rem;
+}
+@media screen and (max-width: 4000px) {
+  html {
+    font-size: 100%;
+  }
+}
+@media screen and (max-width: 550px) {
+  html {
+    font-size: 62.5%;
+  }
+}
 </style>
