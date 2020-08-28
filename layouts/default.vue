@@ -8,6 +8,7 @@
 <style>
 html {
   font-size: 62.5%;
+  font-family: 'Open Sans';
 }
 
 body {
@@ -16,6 +17,7 @@ body {
 }
 
 header {
+  font-family: 'Comfortaa';
   font-size: 5rem;
   margin-left: 20px;
 }

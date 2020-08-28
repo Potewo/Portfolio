@@ -56,8 +56,17 @@ export default {
   */
   modules: [
     // Doc: https://github.com/nuxt/content
-    '@nuxt/content'
+    '@nuxt/content',
+    'nuxt-webfontloader'
   ],
+  webfontloader: {
+    google: {
+      families: [
+        'Comfortaa',
+        'Open+Sans:wght@400;700'
+      ]
+    }
+  },
   /*
   ** Content module configuration
   ** See https://content.nuxtjs.org/configuration
