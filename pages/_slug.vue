@@ -7,7 +7,7 @@
 
 <style>
 article > img {
-  width: 80%;
+  max-width: 80%;
 }
 article > * {
   overflow-wrap: break-word;
