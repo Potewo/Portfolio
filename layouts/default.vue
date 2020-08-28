@@ -93,7 +93,7 @@ p {
 }
 @media screen and (max-width: 550px) {
   html {
-    font-size: 62.5%;
+    /* font-size: 62.5%; */
   }
 }
 </style>
