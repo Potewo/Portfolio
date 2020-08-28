@@ -42,6 +42,10 @@ header {
   padding: 20px;
 }
 
+div.card > h2 {
+  word-wrap: break-word;
+}
+
 .cards a {
   text-decoration: none;
   color: black;

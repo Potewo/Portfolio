@@ -5,6 +5,15 @@
   </article>
 </template>
 
+<style>
+article > img {
+  width: 80%;
+}
+article > * {
+  overflow-wrap: break-word;
+}
+</style>
+
 <script>
 export default {
   async asyncData ({ $content, params }) {

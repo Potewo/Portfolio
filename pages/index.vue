@@ -30,4 +30,23 @@ export default {
 }
 </script>
 <style>
+@media screen and (max-width: 550px) {
+  header {
+    font-size: 30px;
+  }
+  h2 {
+    font-size: 20px;
+  }
+  p {
+    font-size: 10px;
+  }
+  .cards {
+    grid-template-columns: repeat(auto-fill, minmax(200px, 1fr));
+  }
+  .convex {
+    margin: 10px;
+    border-radius: 25px;
+    padding: 25px;
+  }
+}
 </style>
