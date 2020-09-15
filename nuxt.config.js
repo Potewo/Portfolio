@@ -1,5 +1,10 @@
 
 export default {
+  /*
+  ** Nuxt rendering mode
+  ** See https://nuxtjs.org/api/configuration-mode
+  */
+  mode: 'universal',
   router: {
     base: '/Portfolio/'
   },
@@ -12,11 +17,7 @@ export default {
       return files.map(file => file.path === '/index' ? '/' : file.path)
     }
   },
-  /*
-  ** Nuxt rendering mode
-  ** See https://nuxtjs.org/api/configuration-mode
-  */
-  mode: 'spa',
+
   /*
   ** Nuxt target
   ** See https://nuxtjs.org/api/configuration-target
