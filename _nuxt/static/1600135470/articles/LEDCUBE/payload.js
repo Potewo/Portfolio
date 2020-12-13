@@ -1,1 +1,0 @@
-__NUXT_JSONP__("/articles/LEDCUBE", {data:[],fetch:[],mutations:void 0});

@@ -1,1 +1,0 @@
-__NUXT_JSONP__("/articles/IoTOutlet", {data:[],fetch:[],mutations:void 0});

@@ -1,1 +1,0 @@
-__NUXT_JSONP__("/articles/ProjectionMapping", {data:[],fetch:[],mutations:void 0});
